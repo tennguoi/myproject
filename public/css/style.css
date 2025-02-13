@@ -1,0 +1,237 @@
+/* Reset cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+/* Header */
+header {
+    background: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+nav ul li {
+    position: relative;
+    margin: 15px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size : 15px;
+    transition: 0.3s;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* Dropdown Menu */
+nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #007bff;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav ul li .dropdown a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Hiển thị dropdown khi hover */
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f4f9fc;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+/* Highlight */
+.highlight {
+    color: #007bff;
+}
+
+/* Button */
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #007bff;
+}
+
+
+/* Hình ảnh */
+.anh1 {
+    width: 70%;
+    border-radius: 10px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+}
+.highlighted {
+    background: #00aaff;
+    color: white;
+}
+.mb-3{
+    margin-left: 5%;
+    padding: 5px;
+}
+.Khung{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    display:inline-block;
+    background-color: white;
+    border: 1px solid black;
+    block-size:auto;
+}
+.form-label{
+    font-size: larger;
+}
+.form-control{
+    height: 20px;
+    width: 30%;
+}
+.Hinhnen{
+    background-image: url('../Img/9857.jpg_wh860.jpg'); /* Đổi thành đường dẫn ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.booking-container {
+    width: 50%;
+    margin: auto;
+    background:cornflowerblue;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.radio-group input {
+    margin-right: 10px;
+}
+
+.tab-group {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.tab.active {
+    background: #0057d8;
+    color: white;
+}
+
+.form-control {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.form-control2 {
+    width: 92%;
+    padding: 0px 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #0057d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #0033a0;
+}
+
