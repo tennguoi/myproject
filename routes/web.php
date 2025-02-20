@@ -30,4 +30,8 @@ Route::post('/login', function (Request $request) {
     }
 })->name('login.post');
 
+Route::get('/booking', function () {
+    return view('booking');
+})->name('booking');
+
 
